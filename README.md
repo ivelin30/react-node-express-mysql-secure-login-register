@@ -1,3 +1,4 @@
+A simple login and register using nodejs, mysql, and jwt token
 1. install npm's
 2. create .env in backend
         DB_HOST ,
