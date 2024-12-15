@@ -1,0 +1,130 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #353535;
+}
+
+.form-box {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 90%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.options {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.options a {
+  font-size: 0.9rem;
+  color: #6a11cb;
+  text-decoration: none;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+  background: linear-gradient(to right, #2575fc, #6a11cb);
+}
+
+.social-login {
+  margin: 1rem 0;
+}
+
+.social-login p {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-btn.facebook {
+  background: #3b5998;
+}
+
+.social-btn.twitter {
+  background: #1da1f2;
+}
+
+.social-btn.google {
+  background: #db4437;
+}
+
+.social-btn:hover {
+  opacity: 0.8;
+}
+
+.toggle-form {
+  margin-top: 1rem;
+  color: #666;
+}
+
+.toggle-form .link {
+  background: none;
+  border: none;
+  color: #6a11cb;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.toggle-form .link:hover {
+  text-decoration: underline;
+}
